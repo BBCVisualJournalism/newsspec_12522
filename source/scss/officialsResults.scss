@@ -1,0 +1,70 @@
+.ns_officialsResultsHolder {
+
+	width:100%;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 0 8px;
+	text-align: center;
+
+	h3 {
+		margin: 50px auto 28px auto;
+	}
+
+	p {
+		margin: 28px auto;
+		max-width: 344px;
+	}
+
+	.ns_officialsResultsGroupHolder {
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+		padding-right: 27.5px;
+
+		h2 {
+			font-size: 2.5em;
+			margin: 0 auto 28px auto;
+			color: $color--brand-teal;
+		}
+
+		.ns_officialsGroupImg {
+			width: 100%;
+			height: auto;
+			max-width: 222px;
+			margin: 0 auto;
+		}
+
+	}
+	.ns_officialsResultsGroupHolder + .ns_officialsResultsGroupHolder {
+		padding-left: 27.5px;
+		padding-right: 0;
+	}
+}
+
+/*
+ * Responsive behaviour
+*/
+
+@media all and (max-width: 540px) {
+	
+	.ns_officialsResultsHolder {
+		
+		.ns_officialsResultsGroupHolder {
+			display: block;
+			width: 100%;
+			padding: 0 !important;
+
+			h2 {
+				margin: 0 auto 8px auto;
+			}
+
+			.ns_officialsGroupImg {
+				width: 60%;
+			}
+		}
+
+		.ns_officialsResultsGroupHolder + .ns_officialsResultsGroupHolder {
+			margin-top: 50px;
+		}
+	}
+}

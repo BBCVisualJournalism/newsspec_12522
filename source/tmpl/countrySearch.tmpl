@@ -1,0 +1,32 @@
+<div class="ns_countrySearchHolder">
+    <div class="country-search-input-box">
+        <div class="country-search">
+            <h5><%= topInputTitle %></h5>
+            <div class="country-search--inputs">
+                <div class="country-search--autocomplete">
+                    <input type="text" id="country-search--text-input" class="country-search--text-input" />
+                    <p class="country-search--help"><%= cantFindCountry %> <a href="#" class="country-search--toggle"><%= browseFullList %></a></p>
+                </div>
+                <div class="country-search--dropdown">
+                    <select class="country-search--dropdown-input">
+                        <option selected="selected" value="default"><%= allCountries %></option>
+                    </select>
+                    <p class="country-search--help"><%= inputRatherSearchByTyping %> <a href="#" class="country-search--toggle"><%= backToCountrySearch %></a></p>
+                </div>
+
+                <h5 class="ns_yourGenderRadioTitle"><%= genderQuestion %></h5>
+                <span class="ns_genderInputRadioButtonHolder">
+                    <input type="radio" id="ns_genderRadioBtnFemale" name="user-gender" value="individual" />
+                    <label for="ns_genderRadioBtnFemale"><%= female %></label>
+                </span>
+                <span class="ns_genderInputRadioButtonHolder">
+                    <input type="radio" id="ns_genderRadioBtnMale" name="user-gender" value="season" />
+                    <label for="ns_genderRadioBtnMale"><%= male %></label>
+                </span>
+
+                <button class="country-search--submit disabled"><%= howEqualAmI %></button>
+            </div>
+
+        </div>
+    </div>
+</div>

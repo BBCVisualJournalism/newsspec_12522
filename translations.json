@@ -1,0 +1,206 @@
+{
+    "afrique": {
+        "lang": "fr",
+        "name": "afrique",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "arabic": {
+        "lang": "ar",
+        "name": "arabic",
+        "font": "ar-ur",
+        "directionClass": "ns_rtl"
+    },
+    "arabic_1024": {
+        "lang": "ar",
+        "name": "arabic",
+        "font": "ar-ur",
+        "directionClass": "ns_rtl"
+    },
+    "azeri": {
+        "lang": "az",
+        "name": "azeri",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "bengali": {
+        "lang": "bn",
+        "name": "bengali",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "brasil": {
+        "lang": "pt-BR",
+        "name": "portuguese",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "burmese": {
+        "lang": "my",
+        "name": "burmese",
+        "font": "my",
+        "directionClass": "ns_ltr"
+    },
+    "chinese_simp": {
+        "lang": "zh-Hans",
+        "name": "chinese",
+        "font": "zh-hans_simp",
+        "directionClass": "ns_ltr"
+    },
+    "chinese_trad": {
+        "lang": "zh-Hans",
+        "name": "chinese",
+        "font": "zh-hans",
+        "directionClass": "ns_ltr"
+    },
+    "english": {
+        "lang": "en",
+        "name": "english",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "gahuza": {
+        "lang": "rw",
+        "name": "gahuza",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "greatlakes": {
+        "lang": "ha",
+        "name": "hausa",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "hausa": {
+        "lang": "ha",
+        "name": "hausa",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "hindi": {
+        "lang": "hi",
+        "name": "hindi",
+        "font": "hi",
+        "directionClass": "ns_ltr"
+    },
+    "indonesia": {
+        "lang": "id",
+        "name": "indonesia",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "kyrgyz": {
+        "lang": "ky",
+        "name": "kyrgyz",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "mundo": {
+        "lang": "es",
+        "name": "mundo",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "nepali": {
+        "lang": "ne",
+        "name": "nepali",
+        "font": "ne",
+        "directionClass": "ns_ltr"
+    },
+    "pashto": {
+        "lang": "ps",
+        "name": "pashto",
+        "font": "ar-ur",
+        "directionClass": "ns_rtl"
+    },
+    "persian": {
+        "lang": "fa",
+        "name": "persian",
+        "font": "ar-ur",
+        "directionClass": "ns_rtl"
+    },
+    "portuguese": {
+        "lang": "pt-BR",
+        "name": "portuguese",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "russian": {
+        "lang": "ru",
+        "name": "russian",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "sinhala": {
+        "lang": "si",
+        "name": "sinhala",
+        "font": "si",
+        "directionClass": "ns_ltr"
+    },
+    "somali": {
+        "lang": "so",
+        "name": "somali",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "swahili": {
+        "lang": "sw",
+        "name": "swahili",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "tamil": {
+        "lang": "ta",
+        "name": "tamil",
+        "font": "ta",
+        "directionClass": "ns_ltr"
+    },
+    "tajik": {
+        "lang": "tg",
+        "name": "tajik",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "turkish": {
+        "lang": "tr",
+        "name": "turkce",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "urdu": {
+        "lang": "ur",
+        "name": "urdu",
+        "font": "ar-ur",
+        "directionClass": "ns_rtl"
+    },
+    "ukchina_simp": {
+        "lang": "zh-Hans",
+        "name": "ukchina",
+        "font": "zh-hans_simp",
+        "directionClass": "ns_ltr"
+    },
+    "ukchina_trad": {
+        "lang": "zh-Hans",
+        "name": "ukchina",
+        "font": "zh-hans",
+        "directionClass": "ns_ltr"
+    },
+    "ukrainian": {
+        "lang": "uk",
+        "name": "ukrainian",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "uzbek": {
+        "lang": "uz",
+        "name": "uzbek",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    },
+    "vietnamese": {
+        "lang": "vi",
+        "name": "vietnamese",
+        "font": "standard",
+        "directionClass": "ns_ltr"
+    }
+}

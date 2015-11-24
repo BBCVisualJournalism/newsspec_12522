@@ -1,0 +1,279 @@
+$bar1Color: rgb(228, 179, 116);
+$bar2Color: rgb(223, 112, 113);
+$bar3Color: rgb(207, 226, 178);
+$bar4Color: rgb(161, 188, 230);
+
+.ns_countrySearchTopAnimHolder {
+	width: 100%;
+	max-width: 644px;
+	margin: 0 auto;
+
+	.ns_countrySearchTopAnimHolderRel {
+		position: relative;
+		width: 100%;
+		padding-bottom: 40%;
+
+		.ns_countrySearchTopAnimHolderAbs {
+			position: absolute;
+			width:100%;
+			height:100%;
+			background-color: #fff;
+
+			.ns_countrySearchTopAnimPersonBar {
+				position: absolute;
+				bottom: 0;
+				width: 6.2893%;
+			}
+
+			.ns_countrySearchTopAnimPersonBar1 {
+				left: 3.45911%;
+				background-color: $bar1Color;
+
+				height: 15%;
+				height: calc(27%);
+				transform: translateY(80%);
+
+				-webkit-animation: countrySearchTopBarAnim 9s 3; /* Safari 4+ */
+				-moz-animation:    countrySearchTopBarAnim 9s 3; /* Fx 5+ */
+				-o-animation:      countrySearchTopBarAnim 9s 3; /* Opera 12+ */
+				animation:         countrySearchTopBarAnim 9s 3; /* IE 10+, Fx 29+ */
+				animation-timing-function: ease-in-out;
+			}
+
+			.ns_countrySearchTopAnimPersonBar2 {
+				left: 13.20752%;
+				background-color: $bar2Color;
+
+				height: 22%;
+				height: calc(27%);
+				transform: translateY(80%);
+
+				-webkit-animation: countrySearchTopBarAnim 8s 3; /* Safari 4+ */
+				-moz-animation:    countrySearchTopBarAnim 8s 3; /* Fx 5+ */
+				-o-animation:      countrySearchTopBarAnim 8s 3; /* Opera 12+ */
+				animation:         countrySearchTopBarAnim 8s 3; /* IE 10+, Fx 29+ */
+				animation-delay: 1.5s;
+				animation-timing-function: ease-in-out;
+			}
+
+			.ns_countrySearchTopAnimPersonBar3 {
+				right: 3.45911%;
+				background-color: $bar3Color;
+
+				height:9%;
+				height: calc(27%);
+				transform: translateY(80%);
+
+				-webkit-animation: countrySearchTopBarAnim 8.5s 3; /* Safari 4+ */
+				-moz-animation:    countrySearchTopBarAnim 8.5s 3; /* Fx 5+ */
+				-o-animation:      countrySearchTopBarAnim 8.5s 3; /* Opera 12+ */
+				animation:         countrySearchTopBarAnim 8.5s 3; /* IE 10+, Fx 29+ */
+				animation-delay: 1.75s;
+				animation-timing-function: ease-in-out;
+			}
+
+			.ns_countrySearchTopAnimPersonBar4 {
+				right: 13.20752%;
+				background-color: $bar4Color;
+
+				height:27%;
+				height: calc(27%);
+				transform: translateY(80%);
+
+				-webkit-animation: countrySearchTopBarAnim 8.7s 3; /* Safari 4+ */
+				-moz-animation:    countrySearchTopBarAnim 8.7s 3; /* Fx 5+ */
+				-o-animation:      countrySearchTopBarAnim 8.7s 3; /* Opera 12+ */
+				animation:         countrySearchTopBarAnim 8.7s 3; /* IE 10+, Fx 29+ */
+				animation-delay: 0.5s;
+				animation-timing-function: ease-in-out;
+			}
+
+			.ns_countrySearchTopAnimPerson {
+				position: absolute;
+				left:7.5%;
+				bottom: 95%;
+				bottom: calc(100% - 5px);
+				width: 85%;
+				height: auto;
+			}
+
+			.ns_countrySearchAnimTopScalesHolder {
+				position: absolute;
+				width: 39.62264%;
+				left: 30.18868%;
+				bottom: 0;
+
+				.ns_countrySearchTopAnimScalesBottom {
+					width: 86.8965%;
+					height:auto;
+					position: relative;
+					vertical-align: bottom;
+					.ns_ltr & {
+						left: 6.55175%;
+					}
+					.ns_rtl & {
+						right: 6.55175%;
+					}
+				}
+
+				.ns_countrySearchTopAnimScalesPointer {
+					position: absolute;
+					width: 1.5%;
+					height: auto;
+					top: 12.5%;
+					left: 49.65%;
+				}
+
+				.ns_countrySearchTopAnimScalesLeftSide {
+					position: absolute;
+					left: 1.5%;
+					width: 39.31034%;
+					bottom: 21%;
+					-webkit-animation: countrySearchScalesLeftAnim 4s infinite; /* Safari 4+ */
+					-moz-animation:    countrySearchScalesLeftAnim 4s infinite; /* Fx 5+ */
+					-o-animation:      countrySearchScalesLeftAnim 4s infinite; /* Opera 12+ */
+					animation:         countrySearchScalesLeftAnim 4s infinite; /* IE 10+, Fx 29+ */
+					animation-timing-function: ease-in-out;
+				}
+
+				.ns_countrySearchTopAnimScalesRightSide {
+					position: absolute;
+					right: 0.85%;
+					width: 39.31034%;
+					bottom: 12%;
+					-webkit-animation: countrySearchScalesRightAnim 4s infinite; /* Safari 4+ */
+					-moz-animation:    countrySearchScalesRightAnim 4s infinite; /* Fx 5+ */
+					-o-animation:      countrySearchScalesRightAnim 4s infinite; /* Opera 12+ */
+					animation:         countrySearchScalesRightAnim 4s infinite; /* IE 10+, Fx 29+ */
+					animation-timing-function: ease-in-out;
+				}
+
+				.ns_countrySearchTopAnimScalesSide {
+					width: 100%;
+					height: auto;
+				}
+
+				.ns_countrySearchTopAnimScalesPerson {
+					width: 30%;
+					height: auto;
+					position: absolute;
+					bottom: 95%;
+					left: 35%;
+
+				}
+			}
+		}
+	}
+
+}
+
+/*
+ * Animations
+*/
+@-webkit-keyframes countrySearchTopBarAnim {
+  0%   { transform: translateY(80%); }
+  50%   { transform: translateY(0); }
+  100% { transform: translateY(80%); }
+}
+@-moz-keyframes countrySearchTopBarAnim {
+  0%   { transform: translateY(80%); }
+  50%   { transform: translateY(0); }
+  100% { transform: translateY(80%); }
+}
+@-o-keyframes countrySearchTopBarAnim {
+  0%   { transform: translateY(80%); }
+  50%   { transform: translateY(0); }
+  100% { transform: translateY(80%); }
+}
+@keyframes countrySearchTopBarAnim {
+  0%   { transform: translateY(80%); }
+  50%   { transform: translateY(0); }
+  100% { transform: translateY(80%); }
+}
+
+//scales - left side
+@-webkit-keyframes countrySearchScalesLeftAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, 16%); }
+  100% { transform: translate(0, 0%); }
+}
+@-moz-keyframes countrySearchScalesLeftAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, 16%); }
+  100% { transform: translate(0, 0%); }
+}
+@-o-keyframes countrySearchScalesLeftAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, 16%); }
+  100% { transform: translate(0, 0%); }
+}
+@keyframes countrySearchScalesLeftAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, 16%); }
+  100% { transform: translate(0, 0%); }
+}
+
+//scales - right side
+@-webkit-keyframes countrySearchScalesRightAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, -16%); }
+  100% { transform: translate(0, 0%); }
+}
+@-moz-keyframes countrySearchScalesRightAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, -16%); }
+  100% { transform: translate(0, 0%); }
+}
+@-o-keyframes countrySearchScalesRightAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, -16%); }
+  100% { transform: translate(0, 0%); }
+}
+@keyframes countrySearchScalesRightAnim {
+  0%   { transform: translate(0, 0%); }
+  50%   { transform: translate(0, -16%); }
+  100% { transform: translate(0, 0%); }
+}
+
+/*
+ * Responsive behaviour
+*/
+
+@media all and (max-width: 540px) {
+	
+	.ns_countrySearchTopAnimHolder {
+
+		.ns_countrySearchTopAnimHolderRel {
+
+			.ns_countrySearchTopAnimHolderAbs {
+
+				.ns_countrySearchTopAnimPersonBar1 {
+					left: 7%;
+				}
+				
+				.ns_countrySearchTopAnimPersonBar2 {
+					display: none;
+				}
+
+				.ns_countrySearchTopAnimPersonBar3 {
+					right: 7%;
+				}
+
+				.ns_countrySearchTopAnimPersonBar4 {
+					display: none;
+				}
+
+				.ns_countrySearchTopAnimPersonBar {
+					width: 7%;
+				}
+
+				.ns_countrySearchAnimTopScalesHolder {
+					left: 26%;
+					width: 48%;
+				}
+			}
+
+		}
+
+	}
+}

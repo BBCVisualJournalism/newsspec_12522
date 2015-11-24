@@ -1,0 +1,43 @@
+<div id="ns_officialsResultsHolder" class="ns_officialsResultsHolder ns_hideMe">
+	<h3 id="ns_officialsResultsDescrip"></h3>
+	<div class="ns_officialsResultsGroupHolder">
+		<h2 id="ns_officialsResultsFemaleVal"></h2>
+		<img id="ns_officialsResultsFemaleImg" class="ns_officialsGroupImg" src="<%= pathStatic %>/<%= vocab_dir %>/img/groupf___.png" alt="">
+	</div><div class="ns_officialsResultsGroupHolder">
+		<h2 id="ns_officialsResultsMaleVal"></h2>
+		<img id="ns_officialsResultsMaleImg" class="ns_officialsGroupImg" src="<%= pathStatic %>/<%= vocab_dir %>/img/groupm___.png" alt="">
+	</div>
+	<!-- share button -->
+	<div class="ns_shareHolder" id="ns_officialsShare">
+		<button class="ns_shareButton"><%= share %></button>
+		<div class="ns_shareOverlayAbsHolder">
+			<div class="ns_shareOverlay ns_hideMe">
+				<h3><%= share %></h3>
+				<a href="#" class="ns_shareOverlayClose"></a>
+				<ul>
+					<li>
+						<a href="#" target="_blank" data-window-width="626" data-window-height="236" data-network="email" tabindex="1" class="s-b-p-a istats-notrack email__share-button">
+							<img src="<%= pathStatic %>/<%= vocab_dir %>/img/share_overlay_email_btn.png">
+							<span><%= email %></span>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" data-window-width="626" data-window-height="236" data-network="facebook" tabindex="1" class="s-b-p-a istats-notrack facebook__share-button">
+							<img src="<%= pathStatic %>/<%= vocab_dir %>/img/share_overlay_facebook_btn.png">
+							<span><%= facebook %></span>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" data-window-width="626" data-window-height="236" data-network="twitter" tabindex="1" class="s-b-p-a istats-notrack twitter__share-button">
+							<img src="<%= pathStatic %>/<%= vocab_dir %>/img/share_overlay_twitter_btn.png">
+							<span><%= twitter %></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- share button END -->
+	<p><%= seniorOfficialsFooter %></p>
+</div>
+<div class="ns_sectionSeperator ns_hideMe" id="ns_officialsResultsSeperator"></div>

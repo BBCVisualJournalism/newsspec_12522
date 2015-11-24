@@ -1,0 +1,95 @@
+.ns_employmentResultsHolder {
+	width:100%;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 0 8px;
+	text-align: center;
+
+	h3 {
+		margin: 50px auto;
+		max-width: 344px;
+	}
+
+	p {
+		margin: 28px auto;
+		max-width: 344px;
+	}
+	
+	.ns_employmentResultsBarHolder {
+		position: relative;
+		height: 145px;
+		margin: 0 auto 46px auto;
+		border-bottom: 1px solid #000;
+		max-width: 250px;
+
+		.ns_employmentResultsFemaleBar {
+			margin: 0 27.5px;
+			vertical-align: bottom;
+			display: inline-block;
+			width: 63px;
+			height: 100%;
+
+			.ns_employmentBarFiguresHolder {
+				
+				.ns_employmentBarFiguresHolderAbs {
+					background-color: $femaleColor;
+				}
+			}
+		}
+
+		.ns_employmentResultsMaleBar {
+			margin: 0 27.5px;
+			vertical-align: bottom;
+			display: inline-block;
+			width: 63px;
+			height: 100%;
+
+			.ns_employmentBarFiguresHolder {
+				
+				.ns_employmentBarFiguresHolderAbs {
+					background-color: $maleColor;
+				}
+			}
+		}
+
+		.ns_employmentBarFiguresHolder {
+			position: relative;
+			width: 100%;
+			height: 100%;
+
+			.ns_employmentBarFiguresHolderAbs {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				bottom: 0;
+				left:0;
+				overflow: visible !important;
+
+				.ns_employmentResultsVal {
+					font-size: 1.5em;
+					font-weight: bold;
+					color: $color--brand-teal;
+					width: 63px;
+					text-align: center;
+					margin: 0;
+					line-height: 1.3em;
+					position: absolute;
+					left: 0;
+					bottom: 100%;
+				}
+
+				.ns_employmentResultsLabel {
+					font-size: 1em;
+					width: 63px;
+					text-align: center;
+					margin: 0;
+					line-height: 1.5em;
+					position: absolute;
+					left: 0;
+					top: 100%;
+				}
+			}
+
+		}
+	}
+}

@@ -1,0 +1,50 @@
+$font--display: Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font--sans: Helmet, Freesans, Helvetica, Arial, sans-serif;
+$font--serif: Georgia, serif;
+
+$base-font-size: 16px;
+$base-persian-font-size: 18px;
+
+.main {
+	font-size: $base-font-size;
+	.ns_rtl & {
+		font-size: $base-persian-font-size;
+	}
+	// font-family: $font--display;
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+		margin: 0;
+		line-height: 1.3em;
+		text-align: center;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	h4 {
+		font-size: 1.25em;
+		margin:0;
+		line-height: 1.3em;
+	}
+
+	h5 {
+		font-size: 1em;
+		margin:0;
+		line-height: 1.3em;
+	}
+
+	p {
+		font-size: 1em;
+		line-height: 1.375em;
+	}
+
+	div {
+		font-size: 1em;
+	}
+}

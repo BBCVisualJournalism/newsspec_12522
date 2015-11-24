@@ -1,0 +1,133 @@
+$circleNeutralColor: #DDDDDD;
+
+.ns_earningsResultsHolder {
+	display: block;
+	margin: 50px auto 0 auto;
+	width: 100%;
+	max-width: 500px;
+
+	h3 {
+		margin: 28px 0;
+		text-align: center;
+
+		.ns_earningsResultsSalaryFigureSpan {
+			color: $color--brand-teal;
+			font-size: 1.2em;
+		}
+	}
+
+	p {
+		text-align: center;
+		max-width: 344px;
+		margin: 28px auto;
+	}
+
+	.ns_earningsResultsFlagHolder {
+		width: 40%;
+		min-width: 200px;
+		vertical-align: bottom;
+		position: relative;
+		padding: 0 32px;
+		margin: 0 auto;
+
+		.ns_flagHolderRel {
+			width:100%;
+			position: relative;
+
+			.ns_flagPoleImg {
+				width: 100%;
+				height: auto;
+				vertical-align: bottom;
+			}
+
+			.ns_flagImg {
+				position: absolute;
+				top: 4.5%;
+				left: 25.1%;
+				width: 75%;
+				height: auto;
+			}
+		}
+	}
+
+	.ns_earningsResultsPersonHolder {
+		display: inline-block;
+		width:50%;
+		padding-right: 8%;
+		position: relative;
+
+		.ns_rtl & {
+			padding-right: 0;
+			padding-left: 8%;
+		}
+
+		.ns_earningsResultsPersonImg {
+			width: 30%;
+			height:auto;
+			display: block;
+			margin: 0 auto 8px auto;
+		}
+
+		.ns_earningsResultsCircle {
+			width: 10%;
+			height: auto;
+			// margin-right: -4px;
+			// margin-top: -4px;
+			display: inline-block;
+			background-color: $circleNeutralColor;
+
+			// .ns_rtl & {
+			// 	margin-right: -6px;
+			// }
+
+			-webkit-transition: background-color 0.2s linear;
+			-moz-transition: background-color 0.2s linear;
+			-o-transition: background-color 0.2s linear;
+			-ms-transition: background-color 0.2s linear;
+			transition: background-color 0.2s linear;
+		}
+
+		// @for $item from 0 through 100{
+		// 	.ns_earningsResultsCircle:nth-child(#{$item}){				
+		// 		transition-delay: #{(100 - ($item - 1)) / 20}s;
+		// 	}
+		// }
+
+	}
+	.ns_earningsResultsPersonHolder + .ns_earningsResultsPersonHolder {
+		padding-left: 8%;
+		padding-right: 0;
+		.ns_rtl & {
+			padding-left: 0;
+			padding-right: 8%;
+		}
+	}
+}
+
+/*
+ * Responsive behaviour
+*/
+
+@media all and (max-width: 540px) {
+	
+	.ns_earningsResultsHolder {
+		
+		.ns_earningsResultsPersonHolder {
+			display: block;
+			width: 100%;
+			padding: 0 !important;
+			margin: 28px auto;
+
+			.ns_earningsResultsPersonImg {
+				width: 13%;
+				min-width: 50px;
+			}
+
+			.ns_earningsResultsCirclesHolder {
+				margin: 0 auto;
+				width: 100%;
+				max-width: 280px;
+			}
+		}
+	}
+}

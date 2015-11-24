@@ -1,0 +1,108 @@
+$shareOverlayBorderColour: #5b5c55;
+$shareOverlayBackgroundColour: #2d2d2d;
+
+.ns_shareHolder {
+	text-align: center;
+	margin: 28px auto;
+	display: block;
+	position: relative;
+
+	.ns_shareButton {
+		@extend %button--share;
+		color: #fff;
+		margin: 0 auto;
+		line-height: 1em;
+		padding: 0.35em 0.8em 0.3em 2em;
+	}
+
+	.ns_shareOverlayAbsHolder {
+		position: absolute;
+		left: 50%;
+
+		.ns_shareOverlay {
+			position: absolute;
+			top: 10px;
+			left: -119px;
+			width: 240px;
+			border: 1px solid $shareOverlayBorderColour;
+			background-color: $shareOverlayBackgroundColour;
+			font-size: 0.875em;
+			margin: 0;
+			padding: 0 0 10px 0;
+			text-align: left;
+			z-index: 2;
+
+			&.ns_shareOverlayTop {
+				bottom: 40px;
+				top: auto;
+			}
+
+			h3 {
+				color: #fff;
+				font-size: 1.25em;
+				text-align: left;
+				line-height: 45px;
+				font-weight: 400;
+				margin: 0;
+				padding: 0.6em 16px 0.2em 16px;
+			}
+
+			.ns_shareOverlayClose {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				width: 28px;
+				height:28px;
+				background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAcCAYAAAA0u3w+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYYDRwlkPqUwwAAAZ5JREFUWMPt2MFqg0AQBuA/pcxpz/oCuRTax2gOMbfEQGkJydFHCl4bW8hpPeU9WuglDxCFkkBUcC/Tm5QQdRWSgt2Bvc3qfAdndu0BYFwxsjS/5utwg46HARqgARrg3wA9z4OUEkSk9SAigpQSnue1KsT3l3CnYyiltPKVUnCnY/j+sjaXzy0pJTMzh2HIRMRleQCYiDgMQ2ZmllJW5mZpfnY5zogB8HDo8GF/LM3L0pwP+yMPhw4DYMcZVeZCp+gqpG5eHfB30VVI3bxaoE7xTXFVQJ3im+JqgVWINrg6YBWiDU4LeA4jhGiF0wGew8TRdyucNvAUudvtWuF0gadIy7Ja4bI0516T24QQAtvtFrZtI4oi9Pt9JElysdtEkiS4f7hDHMewLAufH18QQlxm0BMRgiAocLZtIwgC7TnZNJRSmC9mBS6OY8wXM+05WTsH/8032Oku2uk52PmTTFfOordlnWez2QAAXNet7VxKKUwmE6zX62Jf0xg8DgAAq9e32s5MRAhW73h+eSr2lUWjOWj+qpkbvQEaoAGexA/3ND9Po4ubRQAAAABJRU5ErkJggg==) 0 0 no-repeat;
+				&:hover {
+					background-position: -28px 0;
+				}
+			}
+
+			ul {
+				font-size: 1em;
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				border: 0;
+
+				li {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+
+					.ns_rtl & {
+						text-align: right;
+					}
+
+					a {
+						color: #fff;
+						line-height: 1.667;
+						text-decoration: none;
+						padding: 0.45em 16px;
+						display: block;
+						font-weight: 400;
+						margin: 0;
+						
+						img {
+							width: 28px;
+							height: auto;
+							display: inline-block;
+						}
+
+						span {
+							display: inline-block;
+							padding-left: 10px;
+							vertical-align: top;
+							line-height: 28px;
+						}
+
+						&:hover {
+							background-color: #000;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.ns_governmentResultsHolder {
+
+	width:100%;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 0 8px;
+	text-align: center;
+
+	h2 {
+		font-size: 2.5em;
+		margin: 0 auto 28px auto;
+		color: $color--brand-teal;
+	}
+
+	h3 {
+		margin: 28px auto;
+	}
+
+	.ns_governmentImg {
+		width: 100%;
+		height:auto;
+	}
+}
